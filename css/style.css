@@ -5,7 +5,7 @@
     border: none;
     box-shadow: 0 -2px  #870004 inset;
     align-self: flex-end;
-    margin: 0 3px 8px 0;
+    margin: 3px 3px 8px 0;
     font-size: 15px;
 }
 .header {
@@ -35,7 +35,7 @@
     margin-right: 10px;
     font-size: 15px;
 }
-.row{
+.main-row{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -80,5 +80,23 @@
     flex: 0 0 100%;
 }
 .news_item {
+}
+.admin-info{
+    display: flex;
+    flex-direction: column;
+}
+.login__title-row{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    display: flex;
+    background-color: #CF0106;
+    color: white;
+    justify-content: space-between;
+}
+.login__info-row{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
 }
 
