@@ -10,9 +10,9 @@
         <div class="header">
             <div class="header__title">Реабилитационный центр <br> Института Ортопедии</div>
             <nav class="navbar">
-                <div class="navbar__item navbar__item_active">Новости</div>
-                <div class="navbar_item">О нас</div>
-                <div class="navbar_item">Задать вопрос</div>
+                <a href="#news"><div class="navbar__item navbar__item_active">Новости</div></a>
+                <a href="#about"><div class="navbar_item">О нас</div></a>
+                <a href="#ask"><div class="navbar_item">Задать вопрос</div></a>
             </nav>
         </div>
         <div class="main-row">
@@ -34,10 +34,40 @@
                 </form>
             </div>
         </div>
-        <div class="news">
+        <div class="news" id="news">
             <div class="news_item">Первая новость</div>
             <div class="news_item">Вторая новость</div>
             <div class="news_item">Третья новость</div>
+        </div>
+        <div class="about" id="about">
+            <div class="about__row">
+                <div class="title-row title-row_center">О нас</div>
+                <div class="about__title">Наши специалисты</div>
+                <div class="about__list">
+                    Здесь будут отображаться наши специалисты
+                </div>
+                <div class="about__title">Наши пациенты</div>
+                <div class="about__list">
+                    Здесь будут отображаться наши пациенты
+                </div>
+            </div>
+        </div>
+        <div class="ask" id="ask">
+            <div class="title-row title-row_center">Задать вопрос</div>
+            <form class="ask-block">
+                <div class="ask-block__question-block">
+                    <label for="">Задать вопрос</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="ask-block__personal-info">
+                    <label for="">ФИО</label>
+                    <input type="text"></input>
+                </div>
+                <div class="ask-block__email">
+                    <label for="">Email</label>
+                    <input type="email" name="" id=""></input>
+                </div>
+            </form>
         </div>
     </body>
 </html>
