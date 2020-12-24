@@ -1,4 +1,73 @@
-<head>
-</head>
-<body>
-</body>
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Главная</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header__title">Реабилитационный центр <br> Института Ортопедии</div>
+            <nav class="navbar">
+                <a href="index.html#news"><div class="navbar__item navbar__item_active">Новости</div></a>
+                <a href="index.html#about"><div class="navbar_item">О нас</div></a>
+                <a href="index.html#ask"><div class="navbar_item">Задать вопрос</div></a>
+            </nav>
+        </div>
+        <div class="main-row">
+            <div class="info">
+                <div class="info__item">Информационный блок предполагает содержание информации об институте.</div>
+            </div>
+            <div class="login">
+                <div class="login__title">Вход в систему</div>
+                <form action="#" class="login__form">
+                    <div class="login__input">
+                        <label for="login">Логин</label>
+                        <input type="text" id="login" placeholder="Введите логин">
+                    </div>
+                    <div class="login__input">
+                        <label for="password">Пароль</label>
+                        <input type="password" id="password" placeholder="Введите пароль">
+                    </div>
+                    <button type="submit" class="button">Войти</button>
+                </form>
+            </div>
+        </div>
+        <div class="news" id="news">
+            <div class="news_item">Первая новость</div>
+            <div class="news_item">Вторая новость</div>
+            <div class="news_item">Третья новость</div>
+        </div>
+        <div class="about" id="about">
+            <div class="about__row">
+                <div class="title-row title-row_center">О нас</div>
+                <div class="about__title">Наши специалисты</div>
+                <div class="about__list">
+                    Здесь будут отображаться наши специалисты
+                </div>
+                <div class="about__title">Наши пациенты</div>
+                <div class="about__list">
+                    Здесь будут отображаться наши пациенты
+                </div>
+            </div>
+        </div>
+        <div class="ask" id="ask">
+            <div class="title-row title-row_center">Задать вопрос</div>
+            <form class="ask-block">
+                <div class="ask-block__question-block">
+                    <label for="">Задать вопрос</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="ask-block__personal-info">
+                    <label for="">ФИО</label>
+                    <input type="text"></input>
+                </div>
+                <div class="ask-block__email">
+                    <label for="">Email</label>
+                    <input type="email" name="" id=""></input>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
