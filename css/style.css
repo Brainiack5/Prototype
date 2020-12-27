@@ -1,6 +1,18 @@
 a{
     text-decoration: none;
 }
+.color1{
+    background-color: #CF0106;
+}
+.color2{
+    background-color: #E7696C;
+}
+.color3{
+    background-color:  #E73B3F;
+}
+.color4{
+    background-color: #870004;
+}
 .button{
     background-color:  #E73B3F;
     color: white;
