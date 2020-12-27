@@ -3,15 +3,23 @@ a{
 }
 .color1{
     background-color: #CF0106;
+    color: white;
 }
 .color2{
     background-color: #E7696C;
+    color: white;
 }
 .color3{
     background-color:  #E73B3F;
+    color: white;
 }
 .color4{
     background-color: #870004;
+    color: white;
+}
+.color5 {
+    background-color: gray;
+    color: white;
 }
 .button{
     background-color:  #E73B3F;
@@ -233,3 +241,43 @@ a{
     margin: 10px 20px 10px 20px;
 }
 
+.table {
+}
+
+.table-row {
+    display: flex; 
+    flex-direction: row;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+.table-row-first {
+    display: flex; 
+    flex-direction: row;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+.table-cell {
+    border-width: 0px 0 0px 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.table-cell-last {
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.selected-tab {
+    cursor: pointer;
+    text-align: center;
+}
+
+.unselected-tab {
+    cursor: pointer;
+    text-align: center;
+}

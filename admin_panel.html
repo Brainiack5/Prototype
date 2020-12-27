@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__title">Реабилитационный центр <br> Института Ортопедии</div>
+        <nav class="navbar">
+            <a>
+                <div class="navbar__item navbar__item_active">Вопросы</div>
+            </a>
+            <a href="admin_main.html">
+                <div class="navbar_item">На главную</div>
+            </a>
+        </nav>
+    </div>
+    <div style="margin: 0 -8px 0 -8px; padding: 0; margin-top: 36px;">
+        <div style="height: 43vh; display: flex; flex-direction: column;">
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 50vw; height: 20px; border-width: 1px 1px 0px 1px; border-style: solid; border-color: black;" class="selected-tab color1">
+                    Незарегистрированные (2)
+                </div>
+                <div style="width: 50vw; height: 20px; border-width: 1px 0px 0px 0px; border-style: solid; border-color: black;" class="unselected-tab color5">
+                    Зарегистрированные (1)
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <div class="table-row-first">
+                    <div style="text-align: center; width: 30vw;" class="color2 table-cell">Фамилия Имя отчество</div>
+                    <div style="text-align: center; width: 40vw;" class="color2 table-cell">Вопрос</div>
+                    <div style="text-align: center; width: 20vw;" class="color2 table-cell">Статус</div>
+                    <div style="text-align: center; width: 10vw;" class="color2 table-cell-last">Дата вопроса</div>
+                </div>
+                
+                <div class="table-row">
+                    <div style="width: 30vw;" class="table-cell"><span style="margin-left: 5px;">Степанов Сергей Борис</span></div>
+                    <div style="width: 40vw;" class="table-cell"><span style="margin-left: 5px;">Какой режим работы института по четвергам?</span></div>
+                    <div style="width: 20vw;" class="table-cell"><span style="margin-left: 5px;">Не отвечено</span></div>
+                    <div style="width: 10vw; text-align: center;" class="table-cell-last"><span style="margin-left: 5px;">21.12.2020</span></div>
+                </div>
+                
+                <div class="table-row">
+                    <div style="width: 30vw;" class="table-cell"><span style="margin-left: 5px;">Репин Сергей Матвеевич</span></div>
+                    <div style="width: 40vw;" class="table-cell"><span style="margin-left: 5px;">Не могу выложить снимок сустава</span></div>
+                    <div style="width: 20vw;" class="table-cell"><span style="margin-left: 5px;">Не отвечено</span></div>
+                    <div style="width: 10vw; text-align: center;" class="table-cell-last"><span style="margin-left: 5px;">21.12.2020</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div style="height: 49vh; display: flex; flex-direction: column;">
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 100vw; height: 20px; border-width: 1px 1px 0px 1px; border-style: solid; border-color: black; text-align: center;" class="color1">
+                    Ответ
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <textarea placeholder="Введите ответ" rows="25" style="resize: none;"></textarea>
+                <button style="margin-left: 88vw; width: 10vw;" class="color3">Ответить</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
