@@ -158,7 +158,7 @@ a{
 }
 .about__list{
     display: flex;
-    height: 250px;
+    height: 35vh;
     border-style: solid;
     border-color: black;
     border-width: 1px;
