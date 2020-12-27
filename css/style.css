@@ -281,3 +281,42 @@ a{
     cursor: pointer;
     text-align: center;
 }
+.personal-area{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 70%;
+}
+.personal-area__info{
+    align-self: start;
+}
+.next-event{
+    margin-top: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 29%;
+}
+.event{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 10vh;
+}
+.contents{
+    margin-top: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 29%;
+}
+.conten-item{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 10vh;
+}
