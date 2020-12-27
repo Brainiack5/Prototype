@@ -4,6 +4,11 @@
         <title>Главная</title>
         <link rel="stylesheet" href="css/style.css" />
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <script>
+            function toMain() {
+                document.location.replace("index.html")
+            }
+        </script>
     </head>
 
     <body>
@@ -27,7 +32,7 @@
                     <div class="title-row">Подтверждение операций: 1<button class="arrow-button">></button></div>
                     <div class="title-row">Истекает срок ответа на вопрос: 20<button class="arrow-button">></button></div>
                     <div class="title-row">Истек срок ответа на вопрос: 120<button class="arrow-button">></button></div>
-                    <button class="button">Выход</button>
+                    <button class="button" onclick="toMain()">Выход</button>
                 </div>
             </div>
         </div>

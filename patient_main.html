@@ -4,6 +4,15 @@
         <title>Главная</title>
         <link rel="stylesheet" href="css/style.css" />
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        
+        <script>
+            function toMain() {
+                document.location.replace("index.html")
+            }
+            function toPersonal() {
+                document.location.replace("patient_personal.html")
+            }
+        </script>
     </head>
 
     <body>
@@ -30,8 +39,8 @@
 
                     </div>
                     <div class="user-info__buttons_inline">
-                        <a href="patient_personal.html"><button class="button" id="personal-data">Личный кабинет</button></a>
-                        <a href="index.html"><button class="button">Выход</button></a>
+                        <button class="button" id="personal-data" onclick="toPersonal()">Личный кабинет</button>
+                        <button class="button" onclick="toMain()">Выход</button>
                     </div>
                 </div>
             </div>
