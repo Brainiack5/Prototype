@@ -71,12 +71,15 @@ a{
 }
 .info {
     display: flex;
+    flex-direction: column;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     flex: 0 0 73%;
 }
 .info__item {
+    margin-left: 15px;
+    margin-top: 5px;
 }
 .login {
     flex: 0 0 25%;
